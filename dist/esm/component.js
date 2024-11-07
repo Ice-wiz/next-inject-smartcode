@@ -41,11 +41,7 @@ export var VWOScript = function VWOScript(_ref) {
     }), /*#__PURE__*/React.createElement(Script, _extends({
       id: "vwoCode"
       // strategy="beforeInteractive"
-      ,
-      dangerouslySetInnerHTML: {
-        __html: smartCode
-      }
-    }, scriptAttributes)));
+    }, scriptAttributes), smartCode));
   }
 
   // App Router implementation

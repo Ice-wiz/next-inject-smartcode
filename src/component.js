@@ -45,9 +45,10 @@ export const VWOScript = ({
         <Script
           id="vwoCode"
           // strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{ __html: smartCode }}
           {...scriptAttributes}
-        />
+        >
+          {smartCode}
+        </Script>
       </>
     );
   }
