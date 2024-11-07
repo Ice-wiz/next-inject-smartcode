@@ -24,9 +24,8 @@ export var VWOScript = function VWOScript(_ref) {
   }
   if (type === 'OSC') {
     return /*#__PURE__*/React.createElement("script", _extends({
-      id: "vwoCode"
-      // strategy="beforeInteractive"
-      ,
+      id: "vwoCode",
+      strategy: "beforeInteractive",
       src: "https://dev.visualwebsiteoptimizer.com/lib/".concat(accountId, ".js")
     }, scriptAttributes));
   }
@@ -39,8 +38,8 @@ export var VWOScript = function VWOScript(_ref) {
       rel: "preconnect",
       href: "https://dev.visualwebsiteoptimizer.com"
     }), /*#__PURE__*/React.createElement(Script, _extends({
-      id: "vwoCode"
-      // strategy="beforeInteractive"
+      id: "vwoCode",
+      strategy: "beforeInteractive"
     }, scriptAttributes), smartCode));
   }
 

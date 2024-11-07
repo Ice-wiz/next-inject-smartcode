@@ -31,9 +31,8 @@ var VWOScript = exports.VWOScript = function VWOScript(_ref) {
   }
   if (type === 'OSC') {
     return /*#__PURE__*/_react["default"].createElement("script", _extends({
-      id: "vwoCode"
-      // strategy="beforeInteractive"
-      ,
+      id: "vwoCode",
+      strategy: "beforeInteractive",
       src: "https://dev.visualwebsiteoptimizer.com/lib/".concat(accountId, ".js")
     }, scriptAttributes));
   }
@@ -46,8 +45,8 @@ var VWOScript = exports.VWOScript = function VWOScript(_ref) {
       rel: "preconnect",
       href: "https://dev.visualwebsiteoptimizer.com"
     }), /*#__PURE__*/_react["default"].createElement(Script, _extends({
-      id: "vwoCode"
-      // strategy="beforeInteractive"
+      id: "vwoCode",
+      strategy: "beforeInteractive"
     }, scriptAttributes), smartCode));
   }
 

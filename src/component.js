@@ -27,7 +27,7 @@ export const VWOScript = ({
     return (
       <script 
         id="vwoCode"
-        // strategy="beforeInteractive"
+        strategy="beforeInteractive"
         src={`https://dev.visualwebsiteoptimizer.com/lib/${accountId}.js`}
         {...scriptAttributes}
       />
@@ -44,7 +44,7 @@ export const VWOScript = ({
         <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
         <Script
           id="vwoCode"
-          // strategy="beforeInteractive"
+          strategy="beforeInteractive"
           {...scriptAttributes}
         >
           {smartCode}
